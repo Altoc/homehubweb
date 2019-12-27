@@ -1,0 +1,4 @@
+TODO:
+Add popup to home.php for note leaving
+Implement password hashing for login
+

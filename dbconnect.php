@@ -16,7 +16,7 @@
 	if(!$HHDB){
 		die('Could not connect to HomeHub DB: ') . mysqli_error($HHDB);
 	} else {
-		echo("DB Connection Successful!");
+		//echo("DB Connection Successful!");
 	}
 ?>
 </body>
