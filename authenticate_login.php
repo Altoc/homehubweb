@@ -22,6 +22,8 @@
 			echo("User is not in DB");
 			header('Location: ./logout.php');
 		}
+	} else {
+		echo("DB Error");
 	}
 	?>
 </body>
