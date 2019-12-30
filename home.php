@@ -34,6 +34,7 @@
 				while($row = mysqli_fetch_assoc($note_query)){
 					echo("<tr><td><b>" . $row['name'] . " says: </b>" . $row['descr'] . "</td><td>" . $row['date'] . "</td></tr>");
 				}
+				mysqli_close($HHDB);
 			?>
 		</table>
 	</div>

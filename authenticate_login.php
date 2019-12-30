@@ -25,6 +25,7 @@
 	} else {
 		echo("DB Error");
 	}
+	mysqli_close($HHDB);
 	?>
 </body>
 </HTML>
