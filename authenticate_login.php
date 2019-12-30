@@ -23,6 +23,7 @@
 			header('Location: ./logout.php');
 		}
 	}
+	mysqli_close($HHDB);
 	?>
 </body>
 </HTML>
